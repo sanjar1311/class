@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 80%;
+  margin: auto;
+  padding: 0 20px;
+  padding: 150px 150px;
+}
+
+.header{
+  background-color: #181F2B;
+  color: aliceblue;
+  height: 100vh;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.head1{
+  display: flex;
+}
+
+.head2{
+  display: flex;
+}
+
+h3{
+  padding: 10px 0 15px 0;
+}
+
+p{
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.box{
+  padding: 20px;
+}
+
+.box-1::before{
+  display: inline-block;
+  content: "";
+  background-image: url("/images/img1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 104px;
+  height: 104px;
+}
+
+.box-2::before{
+  display: inline-block;
+  content: "";
+  background-image: url("/images/img2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 104px;
+  height: 104px;
+}
+
+.box-3::before{
+  display: inline-block;
+  content: "";
+  background-image: url("/images/img3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 104px;
+  height: 104px;
+}
+
+.box-4::before{
+  display: inline-block;
+  content: "";
+  background-image: url("/images/img4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 104px;
+  height: 104px;
+}
+
+      /* SECTION-1 */
+
+.container-fluid{
+  width: 90%;
+  margin: auto;
+}
+
+.section-1{
+  background-color: #181F2B;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.parent{
+  display: flex;
+}
+
+.sec1{
+  box-shadow: 1px 1px 15px 1px #111;
+  margin: 20px;
+  padding: 20px;
+  background-color: #202A3C;
+  border-radius: 5px;
+}
+
+.sec-1{
+  display: flex;
+  align-items: center;
+}
+
+.div{
+  margin-left: 15px;
+}
+
+.img{
+  border-radius: 50%;
+}
+
+.small-size{
+  font-size: 12px;
+}
+
+.bold-size{
+  font-weight: bold;
+}
+
+      /* SECTION-2 */
+
+.section-2{
+  background-color: #181F2B;
+  padding-top: 100px;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+.head{
+  width: 60%;
+  margin: auto;
+  background-color: #1B2330;
+  padding: 25px;
+  font-size: large;
+  text-align: center;
+}
+
+.input{
+  padding: 15px;
+  width: 65%;
+  border-radius: 45px;
+}
+
+.btn{
+  width: 30%;
+  background-color: #fff;
+  background-image: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+  box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+  border-radius: 45px;
+  padding: 15px;
+  margin-left: 40px;
+}
+
+.head h2{
+  padding: 15px 0;
+  letter-spacing: 2px;
+}
+
+.head p{
+  letter-spacing: 1px;
+  line-height: 25px;
+  padding: 15px 0;
+}
